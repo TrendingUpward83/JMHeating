@@ -307,8 +307,12 @@ input, select, textarea {
 		color: #ffffff;
 	}
 
+	a {
+		color: white
+	
+	}
 	a:hover {
-		color: #ffffff;
+		color: #f80101;
 	}
 
 	strong, b {
@@ -2292,7 +2296,7 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #efa8b0;
+			color: #ff011e;
 		}
 
 		.icon.style2 {
@@ -2300,7 +2304,7 @@ input, select, textarea {
 		}
 
 		.icon.style3 {
-			color: #a89cc8;
+			color: #0004ff;
 		}
 
 		.icon.style4 {
@@ -2308,7 +2312,7 @@ input, select, textarea {
 		}
 
 		.icon.style5 {
-			color: #8cc9f0;
+			color: #807886;
 		}
 
 		@media screen and (max-width: 1680px) {
@@ -2885,7 +2889,7 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				background-color: #efa8b0;
+				background-color: #e23500;
 			}
 
 			.statistics li.style2 {
@@ -2893,7 +2897,7 @@ input, select, textarea {
 			}
 
 			.statistics li.style3 {
-				background-color: #a89cc8;
+				background-color: #4400ff;
 			}
 
 			.statistics li.style4 {
@@ -2901,7 +2905,7 @@ input, select, textarea {
 			}
 
 			.statistics li.style5 {
-				background-color: #8cc9f0;
+				background-color: #636363;
 			}
 
 			.statistics li strong, .statistics li b {
@@ -3703,7 +3707,9 @@ input, select, textarea {
 						}
 
 		}
-
+	.email{
+		color: white;
+	}
 /* Footer */
 
 	#footer {
