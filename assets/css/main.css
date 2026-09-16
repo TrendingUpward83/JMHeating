@@ -3079,7 +3079,7 @@ input, select, textarea {
 	#header {
 		 	width: 100%;
     		box-sizing: border-box;
-		    background-image: url("../images/Hero_Image.png");
+		    background-image: url("./images/Hero_Image.png");
     		background-size: cover;
     		background-position: center;
     		background-repeat: no-repeat;
