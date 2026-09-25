@@ -29,6 +29,14 @@
 
 	// Nav.
 		var $nav = $('#nav');
+		var $menuButton = $('.menu-button');
+
+$menuButton.on('click', function() {
+	var isExpanded = $(this).attr('aria-expanded') === 'true';
+
+	$(this).attr('aria-expanded', !isExpanded);
+	$nav.toggleClass('open');
+});
 
 		if ($nav.length > 0) {
 

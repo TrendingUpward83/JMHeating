@@ -3350,17 +3350,23 @@ table.alt tbody tr td {
 				font-size: 0.9em;
 			}
 
-	@media screen and (max-width: 736px) {
+    @media screen and (max-width: 736px) {
 
-		#nav {
-			display: none;
-		}
+        #nav {
+            display: none;
+        }
 
-			#nav + #main {
-				padding-top: 0;
-			}
+        #nav.open {
+            display: block;
+        }
 
-	}
+        #nav + #main {
+            padding-top: 0;
+        }
+
+    }
+
+
 
  /* Main */
 
