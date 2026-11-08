@@ -12,9 +12,7 @@
     content="Reliable residential heating and air-conditioning services in Western Pennsylvania. Call today to request service or an estimate."
   >
 
-  <!--<meta name="theme-color" content="#123047">-->
 
-  <link rel="canonical" href="https://www.example.com/">
 
 <!--"The canonical link is for SEO:-->
 
@@ -53,25 +51,179 @@ While you’re still developing and don’t have the real domain yet, you can ei
 -->
 
   <!-- Local business structured data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "HVACBusiness",
-    "name": "JM Heating & AC",
-    "url": "https://www.example.com",
-    "telephone": "1-724-612-0749",
-    "email": "service@jmheating.com",
-    "areaServed": [
-      "Allegheny County, Pennsylvania",
-      "Beaver County, Pennsylvania"
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressRegion": "PA",
-      "addressCountry": "US"
+
+<!-- Local business structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HVACBusiness",
+  "@id": "https://www.jmheatingac.com/#business",
+  "name": "JM Heating & AC",
+  "url": "https://www.jmheatingac.com/",
+  "telephone": "+1-724-612-0749",
+  "email": "jake@jmheating.com",
+  "description": "JM Heating & AC provides residential heating and air conditioning repair, troubleshooting, maintenance, replacement, and installation in Allegheny, Beaver, and Lawrence counties in Western Pennsylvania.",
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "Allegheny County, Pennsylvania"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Beaver County, Pennsylvania"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Lawrence County, Pennsylvania"
     }
+	
+	{
+		"@type": "Place",
+		"name": "North Hills, Pittsburgh, Pennsylvania"
+	},
+	{
+		"@type": "AdministrativeArea",
+		"name": "Allegheny County, Pennsylvania"
+	},
+	{
+		"@type": "AdministrativeArea",
+		"name": "Beaver County, Pennsylvania"
+	},
+	{
+		"@type": "AdministrativeArea",
+		"name": "Lawrence County, Pennsylvania"
+	},
+	{
+		"@type": "Place",
+		"name": "Ross Township, Pennsylvania"
+	},
+	{
+		"@type": "Place",
+		"name": "West View, Pennsylvania"
+	},
+	{
+		"@type": "Place",
+		"name": "McCandless, Pennsylvania"
+	},
+	{
+		"@type": "Place",
+		"name": "Shaler Township, Pennsylvania"
+	},
+	{
+		"@type": "Place",
+		"name": "Hampton Township, Pennsylvania"
+	},
+	{
+		"@type": "Place",
+		"name": "Franklin Park, Pennsylvania"
+	},
+	{
+		"@type": "Place",
+		"name": "Marshall Township, Pennsylvania"
+	},
+	{
+		"@type": "Place",
+		"name": "Pine Township, Pennsylvania"
+	},
+	{
+		"@type": "Place",
+		"name": "Richland Township, Pennsylvania"
+	},
+	{
+		"@type": "Place",
+		"name": "Wexford, Pennsylvania"
+	},
+	{
+		"@type": "Place",
+		"name": "Bradford Woods, Pennsylvania"
+	},
+	{
+		"@type": "Place",
+		"name": "Fox Chapel, Pennsylvania"
+	},
+	{
+		"@type": "Place",
+		"name": "O'Hara Township, Pennsylvania"
+	},
+	{
+		"@type": "Place",
+		"name": "Ohio Township, Pennsylvania"
+	},
+	{
+		"@type": "Place",
+		"name": "Kilbuck Township, Pennsylvania"
+	},
+	{
+		"@type": "Place",
+		"name": "Reserve Township, Pennsylvania"
+	},
+	{
+		"@type": "Place",
+		"name": "Millvale, Pennsylvania"
+	},
+	{
+		"@type": "Place",
+		"name": "Etna, Pennsylvania"
+	},
+	{
+		"@type": "Place",
+		"name": "Sharpsburg, Pennsylvania"
+	}
+
+  ],
+  "address": {
+    "@type": "PostalAddress",
+	"addressLocality": "North Hills",
+    "addressRegion": "PA",
+    "addressCountry": "US"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Residential HVAC Services",
+    "itemListElement": [
+      {
+        "@type": "OfferCatalog",
+        "name": "Heating Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Furnace Repair and Troubleshooting"
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Furnace Installation and Replacement"
+          }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Air Conditioning Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Air Conditioning Repair"
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Air Conditioning Installation and Replacement"
+          }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "HVAC Maintenance",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Seasonal HVAC Maintenance and Tune-Ups"
+          }
+        ]
+      }
+    ]
   }
-  </script>
+}
+</script>
+
 
   <script src="/assets/js/main.js" defer></script>
 </head>
