@@ -3349,8 +3349,20 @@ table.alt tbody tr td {
 
 			#nav.alt ul li a {
 				font-size: 0.9em;
+				color: #a51313;
 			}
 
+	/* Sticky navigation - hover */
+	#nav.alt ul li a:hover {
+		background-color: #a51313;
+		color: #ffffff;
+	}
+
+	/* Sticky navigation - active section */
+	#nav.alt ul li a.active {
+		background-color: #555454;
+		color: #ffffff;
+	}		
     @media screen and (max-width: 736px) {
 
         #nav {
